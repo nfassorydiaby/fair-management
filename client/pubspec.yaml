@@ -1,0 +1,30 @@
+name: client
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.5.0-180.3.beta <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # Add flutter_bloc for state management
+  flutter_bloc: ^8.0.1
+
+  # Add http for making HTTP requests
+  http: ^1.2.2
+
+  # Add equatable for comparing objects in bloc states
+  equatable: ^2.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
